@@ -20,7 +20,7 @@ describe('index.js', function () {
     });
 
     it('is defined using let', function () {
-      expect(js).to.match(/let mostProfitableNeighborhood/, "Expected mostProfitableNeighborhood to be defined using let");
+      expect(js).to.match(/letmostProfitableNeighborhood/, "Expected mostProfitableNeighborhood to be defined using let");
     });
   });
 
